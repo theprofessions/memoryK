@@ -23,7 +23,7 @@ concurrency:
 jobs:
   build-lkm:
     name: Evolution X marble 5.10.256 LKM
-    runs-on: blacksmith-16vcpu-ubuntu-2204
+    runs-on: warp-ubuntu-latest-x64-16x
     timeout-minutes: 120
 
     env:
